@@ -71,4 +71,4 @@ If you use this code, please cite:
 
 ## License
 
-GPL-3.0. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
