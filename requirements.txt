@@ -1,0 +1,8 @@
+# Tested with Python 3.14.2 and these exact versions.
+numpy==2.5.1
+scipy==1.18.0
+jax==0.10.2
+jaxlib==0.10.2
+cvxpy==1.9.2
+clarabel==0.11.1
+matplotlib==3.11.0
