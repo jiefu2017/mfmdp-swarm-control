@@ -1,6 +1,12 @@
 # mfmdp-swarm-control
 
-Code for chance-constrained reach-avoid control of large swarms modeled as a
+Code for the paper
+
+> J. Fu and A. Dubey, "Policy Synthesis for Finite Populations of MDP Agents
+> under Aggregate Reach-Avoid Chance Constraints," submitted to the 2027
+> American Control Conference (ACC).
+
+It implements chance-constrained reach-avoid control of large swarms modeled as a
 mean-field MDP. The method propagates the mean **and covariance** of the
 swarm's empirical state distribution, turns per-timestep chance constraints
 into deterministic second-order cone constraints (Cantelli bound), and solves
@@ -47,6 +53,20 @@ python -m sim.run_evcharging_case_study   # EV charging, T = 12
 python -m sim.plot_gridworld_layout       # -> figures/gridworld_layout.pdf
 python -m sim.plot_ev_idle_effect         # -> figures/ev_idle_effect.pdf
 python -m sim.make_videos                 # -> sim/mf_lp_swarm.mp4, sim/sca_swarm.mp4
+```
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@unpublished{fu2027policy,
+  author = {Fu, Jie and Dubey, Anamika},
+  title  = {Policy Synthesis for Finite Populations of {MDP} Agents under
+            Aggregate Reach-Avoid Chance Constraints},
+  note   = {Submitted to the 2027 American Control Conference (ACC)},
+  year   = {2026}
+}
 ```
 
 ## License
